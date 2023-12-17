@@ -1,0 +1,218 @@
+.image-text h5 {
+    border-bottom: 1px solid #5E5046;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: Kreon;
+    margin: 10px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 50px;
+}
+
+.image-text p {
+    margin: 10px;
+    font-family: Kreon;
+    font-size: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+
+}
+
+.info h2 {
+    font-size: 24px;
+    font-family: Kreon;
+    border-bottom: 1px solid #5E5046;
+    margin-bottom: 20px;
+
+}
+
+.pris {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: Kreon;
+}
+
+.betaling {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.grøn {
+    color: #756851;
+    font-size: 18px;
+    font-family: Kreon;
+}
+
+.praktisk-info {
+    margin-bottom: 20px;
+}
+
+.adresse {
+    margin-bottom: 20px;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#forløb,
+#engang {
+    width: 150px;
+    height: 36px;
+    border: 1px solid #000;
+    background: #FBF3EE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #83786B;
+    width: 601px;
+    height: 56px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+#book {
+    width: 150px;
+    height: 36px;
+    border: 1px solid #000;
+    background: #606542;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #FBF3EE;
+    cursor: pointer;
+}
+
+.tid1 {
+    background: #83786B;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 600px;
+    height: 56px;
+}
+
+.gruppe1,
+.gruppe2,
+.gruppe4,
+.gruppe3 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#en-gang-pris {
+    display: none;
+}
+
+#et-forløb-pris {
+    display: none;
+}
+
+.engangtider {
+    display: none;
+}
+
+.etforløbtider {
+    display: none;
+}
+
+/* Generel stil for formularer */
+.book-labels form {
+    max-width: 400px;
+}
+
+/* Stil for labels */
+.book-labels label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Stil for input-felter */
+.book-labels input[type="text"],
+.book-labels input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Stil for submit-knappen */
+.button {
+
+    border: 1px solid #000;
+    background: #606542;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 8px 50px;
+    color: #FBF3EE;
+    cursor: pointer;
+}
+
+.book-labels .button:hover {
+    background-color: #45a049;
+}
+
+/* Tilføj denne klasse for at skjule elementet */
+.hidden {
+    display: none;
+}
+
+
+.selected {
+    border: 1px solid #606542;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Start CSS */
+.checkbox-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.checkbox-item {
+    margin-right: 20px;
+    /* Juster afstanden mellem checkbox-elementerne */
+}
+
+@media only screen and (max-width: 768px) {}
